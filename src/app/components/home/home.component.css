@@ -1,0 +1,178 @@
+*,
+::after,
+::before{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+
+button{
+    border: none;
+    background: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.hs__navbar{
+background: rgb(24 24 24);
+
+padding: 20px 40px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+.navbar_content--left{
+    width: 600px;
+    height: 45px;
+    margin: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.navbar_content--left>a{
+
+    height: 100%;
+        
+    }
+    
+
+.navbar_content--left>input{
+
+background: rgb(31, 31, 31);
+border-radius: 20px;
+margin: 0px 0px 0px 40px;
+width: 300px;
+color: white;
+padding: 0px 27px;
+outline: none;
+
+}
+
+.navbar_content--left>input::placeholder{
+color: rgb(119, 119, 119);
+    font-weight: 900;
+    }
+    
+
+
+
+.navbar_content--right{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin: 0px 40px 0px 0px ;
+
+}
+
+.navbar_content--right>.nav__signup{
+   color: white;
+   text-transform: uppercase;
+    
+}
+
+.navbar_content--right>.nav__signin{
+    color: white;
+text-transform: uppercase;
+    
+}
+
+
+
+
+.hs__logo>img{
+width: 100px;
+height:50px;
+
+}
+
+
+/* main section  */
+
+.hs__main-section{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    
+    
+    
+}
+.hs__filter-box{
+    width: 17vw;
+    height: 87vh;
+    background: rgb(155, 155, 155);
+   
+}
+
+.hs__listFilm-box{
+    width: 83vw;
+  
+    background: rgb(238, 236, 236);
+     padding: 30px 40px;
+    
+    
+    
+}
+
+.hs__listFilm-h1{
+   
+    text-transform: uppercase;
+
+}
+
+.hs__listFilm-p{
+    margin: 30px 0px;
+}
+
+.hs__listFilm{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+column-gap: 10px;
+ row-gap: 20px;
+  
+    
+}
+
+
+.hs__listFilm--item{
+    background-color: white;
+    flex: 0 1 15%;
+    transition: all 0.3s ease-in-out;  
+}
+
+.hs__listFilm--item:hover{
+    scale: 1.05;
+    cursor: pointer;
+
+}
+
+
+.listFilm__item--img{
+    height: 80%;
+    width: 100%;
+
+}
+
+.listFilm__item--title{
+background-color: white;
+
+
+}
