@@ -1,0 +1,107 @@
+.hs__signup-section{
+  
+    display: flex;
+    
+
+
+}
+
+
+
+.hs__signup-box{
+    width: 40vw;
+    background-color: rgb(255, 255, 255);
+    padding: 40px ;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.hs__signup-form{
+   width: 50%;  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   row-gap: 12px;
+
+}
+
+
+.signup__form--username{
+display: block;
+width: 100%;
+padding: 12px 10px;
+outline: none;
+border-radius: 5px;
+border: none;
+border: 1px solid rgba(59, 59, 59, 0.247);
+}
+
+.signup__form--username::placeholder{
+   color: rgb(0, 0, 0);
+   font-size: 15px;
+    
+    }
+    
+    .signup__form--password::placeholder{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+         }
+
+.signup__form--password{
+    display: block;
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(59, 59, 59, 0.247);
+}
+
+.signup__form--email{
+    display: block;
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(59, 59, 59, 0.247);
+
+}
+
+.signup__form--email::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+     }
+
+.signup__form--Register{
+    display: block;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    margin: 12px 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    
+
+}
+
+       
+.signup__form--title{
+    margin: 0px 0px 80px 0px;
+    display: block;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.hs__signup-imgRight{
+  
+    background:linear-gradient(0deg, rgba(15, 15, 15, 0.3), rgba(12, 12, 12, 0.3)), url(https://trumpwallpapers.com/wp-content/uploads/Game-of-Thrones-Wallpaper-27-1920-x-1080.jpg);
+    background-size:cover;
+    width: 60vw;
+    height: 80vh;
+    padding: 40px ;
+
+}
