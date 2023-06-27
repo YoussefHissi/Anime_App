@@ -1,0 +1,35 @@
+
+.hs__watch-section{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(32, 31, 31);
+    padding: 0px 0px 0px 40px;
+    overflow-x: hidden;
+
+}
+
+.hs__watch-video-box{
+    height: 70vh;
+    width: 70vw;
+    background: black;
+    position: relative;
+}
+
+
+
+.hs__video--iconStart{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 80px;
+    cursor: pointer;
+}
+
+.hs__watch-video--title{
+color: white;
+font-weight: 900;
+font-size: 32px;
+margin-top: 20px;
+
+}
