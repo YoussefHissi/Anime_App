@@ -6,18 +6,14 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ServicedataService {
-  url = 'https://moviesdatabase.p.rapidapi.com/titles/series/%7BseriesId%7D';
-  apiKey = '6b1256293e8f6397b8dc3443d5c1fd19';
+  url = 'http://localhost:3000/posts';
+ 
 
   constructor(private http: HttpClient) { }
-
+   
   getdata() {
-    // Set the headers with the API key
-    const headers = new HttpHeaders({
-      'X-RapidAPI-Key': this.apiKey
-    });
 
-    return this.http.get(this.url, { headers }).pipe(
+    return this.http.get(this.url).pipe(
       map(response => {
         return response;
       })
