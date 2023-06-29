@@ -8,6 +8,7 @@ import { ServicedataService } from 'src/app/services/servicedata.service';
 })
 export class HomeComponent {
   films:any
+  currentPage = 1;
   constructor(private service:ServicedataService){
     this.showdata()
   }

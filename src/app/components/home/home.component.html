@@ -41,10 +41,11 @@
      <p class="hs__listFilm-p">How many Duration s have you sat down for the evening, gotten comfortable with your drink, put on your lounge pants. And then you discover there are no good movies to watch? For most people, it happens frequently. What can you do instead? How about watching a full length movie online through Yidio? You are</p>
 
      <div class="hs__listFilm">
-    <div class="hs__listFilm--item" *ngFor="let film of films">
+    <div class="hs__listFilm--item" *ngFor="let film of films| paginate: { itemsPerPage: 3, currentPage: currentPage }">
      <img routerLink="/watch/{{film.title}}" class="listFilm__item--img" src="{{film.image}}" alt="">
      <p class="listFilm__item--title" >{{film.title}}</p>
     </div>
+    <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
 
 
 </div>
