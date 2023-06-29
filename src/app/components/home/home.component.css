@@ -103,14 +103,18 @@ background-color: white;
     
     
     }
-.hs__filter-Duration--title{
+.hs__filter-Duration--title,
+.hs__filter-Aired--title{
 margin:20px 0px 0px 5px;
 
 
 }
 
+
+
 .Duration__label,
-.score__label{
+.score__label,
+.Aired__label{
   margin:0px 0px 0px 10px;
 
 }
