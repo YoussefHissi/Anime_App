@@ -14,8 +14,8 @@
 
      <div class="hs__listFilm">
     <div class="hs__listFilm--item" *ngFor="let film of films">
-     <img class="listFilm__item--img" src="https://cfm.yidio.com/images/movie/215017/poster-180x270.jpg" alt="">
-     <p class="listFilm__item--title" >Spider-Man: Across the ...</p>
+     <img class="listFilm__item--img" src="{{film.image}}" alt="">
+     <p class="listFilm__item--title" >{{film.title}}</p>
     </div>
 
 
