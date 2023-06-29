@@ -18,4 +18,38 @@ export class HomeComponent {
     })
   }
 
+
+  filterbyScore(event:any){
+    let value=event.target.value;
+
+    if(value=="9 or Higher"){ 
+    const filterbyscore = this.films.filter((film:any) => film.score >= 9);
+     console.log(filterbyscore);
+    }
+
+      if(value=="8 or Higher"){ 
+      const filterbyscore = this.films.filter((film:any) => film.score >= 8);
+       console.log(filterbyscore);
+      }
+
+      if(value=="7 or Higher"){ 
+        const filterbyscore = this.films.filter((film:any) => film.score >= 7);
+         console.log(filterbyscore);
+        }
+
+      if(value=="6 or Higher"){ 
+          const filterbyscore = this.films.filter((film:any) => film.score >= 6);
+           console.log(filterbyscore);
+          }
+      if(value=="5 or Higher"){ 
+            const filterbyscore = this.films.filter((film:any) => film.score >= 5);
+             console.log(filterbyscore);
+            }
+      if(value=="4 or Higher"){ 
+              const filterbyscore = this.films.filter((film:any) => film.score >= 4);
+               console.log(filterbyscore);
+              }
+
+  }
+
 }
