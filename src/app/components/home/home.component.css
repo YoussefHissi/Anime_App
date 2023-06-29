@@ -38,6 +38,7 @@ a{
     width: 17vw;
     height: 87vh;
     background: rgb(155, 155, 155);
+    padding: 40px 0px 0px 40px;
    
 }
 
@@ -96,3 +97,27 @@ background-color: white;
 
 
 }
+
+.hs__filter-score--title{
+    margin:0px 0px 0px 5px;
+    
+    
+    }
+.hs__filter-Duration--title{
+margin:20px 0px 0px 5px;
+
+
+}
+
+.Duration__label,
+.score__label{
+  margin:0px 0px 0px 10px;
+
+}
+
+input[type="checkbox"]{
+    background: red!important;
+
+}
+
+
