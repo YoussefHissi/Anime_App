@@ -14,7 +14,7 @@
 
      <div class="hs__listFilm">
     <div class="hs__listFilm--item" *ngFor="let film of films">
-     <img routerLink="'watch/'+ {{film.title}}" class="listFilm__item--img" src="{{film.image}}" alt="">
+     <img routerLink="/watch/{{film.title}}" class="listFilm__item--img" src="{{film.image}}" alt="">
      <p class="listFilm__item--title" >{{film.title}}</p>
     </div>
 
