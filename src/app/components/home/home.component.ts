@@ -7,12 +7,14 @@ import { ServicedataService } from 'src/app/services/servicedata.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  films:any
   constructor(private service:ServicedataService){
     this.showdata()
   }
   showdata(){
     this.service.getdata().subscribe((res:any)=>{
       console.log(res)
+      this.films=res
     })
   }
 
