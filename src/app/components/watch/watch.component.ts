@@ -10,7 +10,7 @@ import { ServicedataService } from 'src/app/services/servicedata.service';
 export class WatchComponent {
   films:any;
   title:any;
-  matchingFilm = null;
+  matchingFilm:any=null;
   constructor(private activateRoute: ActivatedRoute,private service:ServicedataService){
     
   }
