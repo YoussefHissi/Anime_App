@@ -9,6 +9,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { WatchComponent } from './components/watch/watch.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SwiperModule } from 'swiper/angular';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
