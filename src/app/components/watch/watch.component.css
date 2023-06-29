@@ -24,19 +24,22 @@ a{
 /*main section*/
 
 .hs__watch-section{
-    height: 100vh;
+    
     width: 100vw;
-    background: rgb(32, 31, 31);
+    background:linear-gradient(0deg, rgba(15, 15, 15, 0.884), rgba(12, 12, 12, 0.959)), url(https://trumpwallpapers.com/wp-content/uploads/Game-of-Thrones-Wallpaper-27-1920-x-1080.jpg);
+
     padding: 0px 0px 0px 40px;
  
 
 }
 
 .hs__watch-video-box{
-    height: 70vh;
-    width: 70vw;
+    height: 80vh;
+    width: 100vw;
+   padding-top: 20px;
+    
     background: black;
-    position: relative;
+    
 }
 
 
@@ -71,18 +74,31 @@ margin-top: 20px;
 
 }
 
+.hs__watch-description{
+    margin:15px 0px 10px 0px;
+    display:flex;
+   column-gap:10px;
 
-.hs__watch-description-image-box{
-    display: flex;
-    column-gap: 5px;
+}
+
+.hs__watch-description--title{
+    color:white;
+    font-weight: 900;
+    
 }
 
 
 .hs__watch-description--image{
    width: 150px;
-   height:200px
+   height:180px
 }
 
+.hs__watch-description--paragraphe{
+    width: 60%;
+    margin: 20px 0px 0px 0px;
+    line-height: 20px;
+    color:white
+}
 
 
 
