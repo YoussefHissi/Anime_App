@@ -1,3 +1,27 @@
+*,
+::after,
+::before{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+button{
+    border: none;
+    background: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/*main section*/
 
 .hs__watch-section{
     height: 100vh;
@@ -31,5 +55,18 @@ color: white;
 font-weight: 900;
 font-size: 28px;
 margin-top: 20px;
+
+}
+
+
+.hs__watch-video--list{
+  margin:20px 0px;
+  color:white
+   
+
+}
+
+.hs__watch-video--Listitem{
+    margin: 5px 0px;
 
 }

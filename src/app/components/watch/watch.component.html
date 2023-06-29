@@ -1,9 +1,8 @@
 <app-navbar></app-navbar>
 <section class="hs__watch-section">
-    <div class="hs__watch-video-box">
-        <img class="hs__video--iconStart" src="../../../assets/start.svg">
-      <video class="hs__watch-video" src=""></video>
-    </div>
+   
+        <iframe class="hs__watch-video-box"  id="iframe-embed" src="https://rapid-cloud.co/embed-6/8OXvSL82BIsa?k=1&amp;autoPlay=1&amp;oa=0&amp;asi=1" frameborder="0" referrerpolicy="strict-origin" allow="autoplay; fullscreen; geolocation; display-capture; picture-in-picture" webkitallowfullscreen="" mozallowfullscreen="" style=""></iframe>
+    
     <h2 class="hs__watch-video--title">{{matchingFilm.title}}</h2>
     <ul class="hs__watch-video--list">
       <li class="hs__watch-video--Listitem">Duration : {{matchingFilm.duration}} </li>
@@ -12,5 +11,5 @@
       <li class="hs__watch-video--Listitem">permited : {{matchingFilm.permited}}</li>
       <li class="hs__watch-video--Listitem">studios : {{matchingFilm.studios}}</li>
     </ul>
-
-    </section>
+    
+  </section>
