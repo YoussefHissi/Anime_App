@@ -55,7 +55,7 @@ export class HomeComponent {
 
 
 
-  filterByDuration(event: any) {
+  filterByAired(event: any) {
     let value = event.target.value;
   
     if (value.search("2023") !== -1) {
