@@ -53,4 +53,17 @@ export class HomeComponent {
 
   }
 
+
+
+  filterbyDuration(event:any){
+    let value=event.target.value;
+
+    if(value.search("2023")){ 
+    const filterbyscore = this.films.filter((film:any) => film.score >= 9);
+    this.films=filterbyscore
+    }
+
+
+  }
+
 }
