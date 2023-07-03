@@ -58,10 +58,27 @@ export class HomeComponent {
   filterByAired(event: any) {
     let value = event.target.value;
   
-    if (value.search("2023") !== -1) {
-      const filterByDuration = this.films.filter((film: any) => film.duration.includes("2023"));
-      this.films = filterByDuration;
+    if (value == "2023") {
+      const filterByAired = this.films.filter((film: any) => film.aired.includes("2023"));
+      this.films = filterByAired;
+      console.log(filterByAired)
     }
+    if (value == "2022") {
+      const filterByAired = this.films.filter((film: any) => film.aired.includes("2022"));
+      this.films = filterByAired;
+      console.log(filterByAired)
+    }
+    if (value == "2021") {
+      const filterByAired = this.films.filter((film: any) => film.aired.includes("2021"));
+      this.films = filterByAired;
+      console.log(filterByAired)
+    }
+    if (value == "2020") {
+      const filterByAired = this.films.filter((film: any) => film.aired.includes("2020"));
+      this.films = filterByAired;
+      console.log(filterByAired)
+    }
+    
   }
 
 }
