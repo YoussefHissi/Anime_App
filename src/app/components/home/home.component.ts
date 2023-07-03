@@ -55,15 +55,13 @@ export class HomeComponent {
 
 
 
-  filterbyDuration(event:any){
-    let value=event.target.value;
-
-    if(value.search("2023")){ 
-    const filterbyscore = this.films.filter((film:any) => film.score >= 9);
-    this.films=filterbyscore
+  filterByDuration(event: any) {
+    let value = event.target.value;
+  
+    if (value.search("2023") !== -1) {
+      const filterByDuration = this.films.filter((film: any) => film.duration.includes("2023"));
+      this.films = filterByDuration;
     }
-
-
   }
 
 }
